@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <title style=text-align:center;>D3Times</title> -->
+  <title>D3Times-DOMAICA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <!-- <h1 style="font-size:60px text-align:center;">D3Times</h1> -->
+        <h1 style="text-align:center;margin-top: 25px; color:red">
+          <strong>D3Times</strong></h1>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Control width scatter plot  -->
+      <div class="col-xs-12  col-md-12">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- <div class="col-xs-11  col-md-12"> -->
+      <div class="col-md-11">
+        <!-- <div class="article"> -->
+          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
+          <hr>
+          <h6>By selecting different axes in the above chart, you can compare data types to get the values used for the analysis below:</h6>
+          <hr>
+          <h4>Poverty vs Healthcare.  Correlation = 0.5245</h4>
+          <p style="margin-left:25px">Positive or linear correlation. As poverty increases, there is a bigger % of population with lack of healthcare.
+            Correlation is slightly above 0.5, therefore we can conclude that it implies a moderate correlation between poverty and 
+            lack of healthcare in different US states.
+          </p>
+          <h4>Poverty vs Obesity.  Correlation = 0.4623</h4>
+          <p style="margin-left:25px">There is a linear correlation positive. It means that when poverty increases, so does the obesity.
+            Anyway, it is a weak correlation as value is smaller than 0.5.
+            
+          </p>
+          <h4>Poverty vs Smoking.  Correlation = 0.5208</h4>
+          <p style="margin-left:25px">As poverty increases, there is a bigger amount of smokers. Correlation is slightly above 0.5 so the interpretation for this 
+            implies a moderate correlation between poverty and smoking.
+          </p>
+          <h4>Age vs Obesity.  Correlation = -0.0077</h4>
+          <p style="margin-left:25px">The correlation value is so close to zero that it can be considered that there is no correlation between these 2 factors.
+           
+          </p>
+          <h4>Age vs Smoking.  Correlation = 0.2481</h4>
+          <p style="margin-left:25px">As age increases there is a trend towards increasing smoking, 
+            but correlation value is aproximately 0.25 so the correlation is weak.
+          
+          </p>
+          <h4>Age vs Healthcare.  Correlation = -0.3852</h4>
+          <p style="margin-left:25px">This correlation value is negative or non linear what implies that as one factor (age) increases, 
+            the other (Healthcare) decreases, but it is a weak trend again.
+            </p>
+          <h4>Household Income vs Obesity.  Correlation = -0.6511</h4>
+          <p style="margin-left:25px">This correlation value is negative or non linear what implies that as one factor (household income) increases, 
+            the other (obesity) decreases.
+            In addition to that, correlation is a value close to -0.7 and bigger than -0.5, so we can conclude that there is a moderate, 
+            almost strong negative correlation between income and obesity.
+            The bigger the income, obesity decreases.
+          </p>
+        <!-- </p> -->
+        <h4>Household Income vs Smoking.  Correlation = -0.6601</h4>
+        <p style="margin-left:25px">Same as above. Negative correlation between income and smoking. 
+          The bigger the household income in a given US State, residents there tend to smoke less.
+        </p>
+      </p>
+      <h4>Household Income vs Healthcare.  Correlation = -0.4340</h4>
+      <p style="margin-left:25px">As household income increases, there are less state residents who lack healthcare. Negative correlation is moderate.
+      </p>
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer"> 
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+  <!-- <script type="text/javascript" src="app.js"></script> -->
+
+</body>
+
+</html>
