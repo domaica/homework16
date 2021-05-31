@@ -38,3 +38,8 @@ This project has been done by accessing the folder where "index.html" was locate
 
 After running that command, you can access your webpage by browsing in 'localhost:8000' and see the results of your html and js development.
 
+
+### - Webpage published in following link:
+
+https://domaica.github.io/homework16/
+
